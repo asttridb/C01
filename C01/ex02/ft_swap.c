@@ -6,7 +6,7 @@
 /*   By: abeaulat <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/16 15:09:41 by abeaulat          #+#    #+#             */
-/*   Updated: 2022/07/21 10:31:28 by abeaulat         ###   ########.fr       */
+/*   Updated: 2022/07/21 12:21:45 by abeaulat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,4 @@ void	ft_swap(int *a, int *b)
 	temp = *a;
 	*a = *b;
 	*b = temp;
-}
-
-int	main(void)
-{
-	void	ft_swap(int *a, int *b);
 }

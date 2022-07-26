@@ -6,18 +6,11 @@
 /*   By: abeaulat <abeaulat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/16 10:03:35 by abeaulat          #+#    #+#             */
-/*   Updated: 2022/07/21 11:34:04 by abeaulat         ###   ########.fr       */
+/*   Updated: 2022/07/21 12:18:32 by abeaulat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_ft(int *nbr)
 {
 	*nbr = 42;
-}
-
-int	main(void)
-{
-	void	ft_fr(int *nbr);
-
-	return (0);
 }

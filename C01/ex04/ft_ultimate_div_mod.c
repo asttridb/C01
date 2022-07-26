@@ -6,12 +6,13 @@
 /*   By: abeaulat <abeaulat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/16 12:52:19 by abeaulat          #+#    #+#             */
-/*   Updated: 2022/07/21 11:01:57 by abeaulat         ###   ########.fr       */
+/*   Updated: 2022/07/26 12:11:11 by abeaulat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	fr_ultimate_div_mod(int *a, int *b)
+void	ft_ultimate_div_mod(int *a, int *b)
 {
+	
 	int	div;
 	int	mod;
 
@@ -22,9 +23,4 @@ void	fr_ultimate_div_mod(int *a, int *b)
 		*a = div;
 		*b = mod;
 	}
-}
-
-int	main(void)
-{
-	void	fr_ultimate_div_mod(int *a, int *b);
 }
